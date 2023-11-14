@@ -10,6 +10,7 @@ This project is forked from https://github.com/HouariZegai/Calculator, for the p
 ________________________________________________________________________________________________________________________
 
 Requirements:
+
   -Java 11 or greater
   -JavaIDE (IntelliJ)
 

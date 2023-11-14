@@ -20,7 +20,9 @@ Installation Steps:
  - Choose to create a project from Github
  - Add this LINK : https://github.com/AlexisBarros22/Calculator
  - Clone the Project, and let the dependencies install.
- - Run it simply but pressing run in java>app 
+ - Run it simply but pressing run in java>app
+
+Project created for Quality Assurance by Alexis Barros and Vitor Faria.
 
   
 

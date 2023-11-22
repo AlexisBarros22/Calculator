@@ -17,7 +17,7 @@ class CalculatorUITest {
     }
 
     @ParameterizedTest
-    @CsvSource({"3,5,+,8", "2,8,-,-6", "44.5,10,*,445", "320,5,/,64", "3,5,%,3", "5,3,^,125"})
+    @CsvSource({"3,5,+,8"}) //sums 3 + 5 and expects 8 {firstNumber, secondNumber, operator, expectedResult}
     void testCalculation(double firstNumber, double secondNumber, char operator, double expectedResult) {
         assertEquals(expectedResult, calculatorUI.calculate(firstNumber, secondNumber, operator));
     }

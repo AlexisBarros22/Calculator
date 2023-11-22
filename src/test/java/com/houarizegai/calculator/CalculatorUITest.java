@@ -16,9 +16,10 @@ class CalculatorUITest {
         calculatorUI = new CalculatorUI();
     }
 
+    // Test the calculation method
     @ParameterizedTest
-    @CsvSource({"3,5,+,8"}) //sums 3 + 5 and expects 8 {firstNumber, secondNumber, operator, expectedResult}
-    void testCalculation(double firstNumber, double secondNumber, char operator, double expectedResult) {
+    @CsvSource({"4,6,+,10"}) //sums 4 + 6 and expects 10 {firstNumber, secondNumber, operator, expectedResult}
+    void testCalculation2(double firstNumber, double secondNumber, char operator, double expectedResult) {
         assertEquals(expectedResult, calculatorUI.calculate(firstNumber, secondNumber, operator));
     }
 }

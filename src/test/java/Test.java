@@ -1,4 +1,4 @@
-package com.houarizegai.calculator;
+
 
 import com.houarizegai.calculator.ui.CalculatorUI;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class CalculatorUITest {
+class Test {
 
     private CalculatorUI calculatorUI;
 
